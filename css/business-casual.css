@@ -13,6 +13,15 @@ body {
     -o-background-size: cover;
 }
 
+.lead {
+    color: #ACFE32;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-size: 2.25em;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
 h1,
 h2,
 h3,
