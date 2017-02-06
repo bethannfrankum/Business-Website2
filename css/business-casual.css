@@ -13,23 +13,27 @@ body {
     -o-background-size: cover;
 }
 
-.lead {
+.lead,
+.sub-header {
     color: #ACFE32;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
     font-size: 2.25em;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 3px;
+    background-color: white;
 }
 
 .previous a {
     color: #ACFE32;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
     font-size: 1.25em;
     font-weight: 400;
     letter-spacing: 3px;
     text-decoration: underline;
+    background-color: white;
+    margin-left: 5px;
 }
 
 h1,
