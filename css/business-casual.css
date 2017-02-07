@@ -61,6 +61,10 @@ h2 .year {
     margin-bottom: 10px;
 }
 
+.summary {
+    background-color: white;
+}
+
 
 /*.overlay {
     display: block;
