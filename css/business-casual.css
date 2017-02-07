@@ -233,4 +233,15 @@ footer p {
         display: table;
         clear: both;
     }
+    
+    .rightside-gallery {
+        width: 80%;
+        float: right;
+    }
+    
+    .leftside-nav {
+        width: 20%;
+        float: left;
+        overflow: auto;
+    }
 }
