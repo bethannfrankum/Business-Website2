@@ -13,18 +13,44 @@ body {
     -o-background-size: cover;
 }
 
-.lead,
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 10;
+    display: none;
+    border: 1px solid black;
+    padding: 10px;
+    background: white;
+}
+
+
+/*.lead,
 .sub-header {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
-    font-size: 1.25em;
+    font-size: 1.55em;
     font-weight: 600;
     letter-spacing: 3px;
     background-color: white;
     border-radius: 20%;
     height: 80px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 2px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -32,6 +58,7 @@ body {
 h2 .year {
     color: #ACFE32;
 }
+*/
 
 .necklace-header {
     color: white;
@@ -247,5 +274,9 @@ footer p {
         width: 20%;
         float: left;
         overflow: auto;
+    }
+    
+    .store-nav {
+        width: 100%;
     }
 }
