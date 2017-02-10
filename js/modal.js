@@ -1,15 +1,15 @@
 $('#open').on('click', showDialog);
 
 function showDialog() {
-    $('.overlay').fadeIn();
+    $('.overlay2').fadeIn();
     $('.modal').slideDown();
     $('#btnClose').on('click', hideDialog);
-    $('.overlay').on('click', hideDialog);
+    $('.overlay2').on('click', hideDialog);
 }
 
 function hideDialog() {
-    $('.overlay').fadeOut();
+    $('.overlay2').fadeOut();
     $('.modal').slideUp();
     $('#btnClose').off('click', hideDialog);
-    $('.overlay').off('click', hideDialog);
+    $('.overlay2').off('click', hideDialog);
 }

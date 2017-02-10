@@ -39,6 +39,21 @@ body {
 }
 
 
+/*ratings and reviews for individual listings*/
+
+#hearts { color: #FF0000;}
+#hearts-existing { color: #87bad7;}
+.custom-ad p {
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+
 /*.lead,
 .sub-header {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -276,7 +291,7 @@ footer p {
         overflow: auto;
     }
     
-    .store-nav {
+    .leftside-nav a {
         width: 100%;
     }
     
