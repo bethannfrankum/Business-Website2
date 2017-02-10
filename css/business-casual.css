@@ -41,8 +41,14 @@ body {
 
 /*ratings and reviews for individual listings*/
 
-#hearts { color: #FF0000;}
-#hearts-existing { color: #87bad7;}
+#hearts {
+    color: #FF0000;
+}
+
+#hearts-existing {
+    color: #87bad7;
+}
+
 .custom-ad p {
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -209,7 +215,7 @@ footer p {
         margin: 0;
         padding: 30px 0 10px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
         font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 5em;
         font-weight: 700;
