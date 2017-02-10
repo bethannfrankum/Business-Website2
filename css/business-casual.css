@@ -279,4 +279,9 @@ footer p {
     .store-nav {
         width: 100%;
     }
+    
+    .modal {
+        width: 200px;
+        height: 200px;
+    }
 }
