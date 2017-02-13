@@ -5,7 +5,8 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .slide-image {
@@ -51,4 +52,34 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+.container .leftside-nav .list-group {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.lead {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 10;
+    display: none;
+    border: 1px solid black;
+    padding: 10px;
+    background: white;
+    height: 300px;
+}
+
+.summary img {
+    margin-bottom: 10px;
 }
