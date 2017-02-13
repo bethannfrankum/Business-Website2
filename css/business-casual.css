@@ -161,6 +161,7 @@ hr {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
+    position: fixed;
 }
 .img-full {
     min-width: 100%;
@@ -221,7 +222,7 @@ footer p {
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
-        color: #868887;
+        color: rgb(86, 68, 68);
     }
     
     .top-divider {
