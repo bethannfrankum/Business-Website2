@@ -91,12 +91,23 @@ footer {
     letter-spacing: 3px;
 }
 
-.caption h4 {
+.caption h4,
+.caption h4 a {
     color: #202427;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
     font-size: 14px;
+}
+
+.caption h4 a {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.caption p {
+    color: #202427;
+    font-weight: 400;
 }
 
 .lead button {
