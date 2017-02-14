@@ -2,7 +2,10 @@
  * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+
+PLEASE NOTE:  THIS IS THE CSS FOR ALL STORE RELATED PAGES, SOME CSS FOR STORE ITEMS MIGHT STILL BE IN BUSINESS CASUAL.
+ 
+*/
 
 body {
     /*padding-top: 70px;
@@ -80,6 +83,24 @@ footer {
     height: 300px;
 }
 
+.lead button {
+    background-color: #BD3631;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+    border-radius: 25%
+}
+
 .summary img {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
     margin-bottom: 10px;
+}
+
+ li {
+    list-style-type: none;
 }
