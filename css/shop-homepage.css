@@ -80,7 +80,23 @@ footer {
     border: 1px solid black;
     padding: 10px;
     background: white;
-    height: 300px;
+    height: 250px;
+}
+
+.modal h2,
+.modal p {
+    color: #202427;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.caption h4 {
+    color: #202427;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 14px;
 }
 
 .lead button {
@@ -94,6 +110,16 @@ footer {
     border-radius: 25%
 }
 
+.summary .btn {
+    background-color: #564444;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
 .summary img {
     text-transform: uppercase;
     font-weight: 400;
@@ -101,6 +127,6 @@ footer {
     margin-bottom: 10px;
 }
 
- li {
+li {
     list-style-type: none;
 }
