@@ -138,6 +138,13 @@ footer {
     margin-bottom: 10px;
 }
 
-li {
+.listing-guts ul li {
     list-style-type: none;
+    display: block;
+    width: 40%;
+}
+
+.main-pic {
+    display: block;
+    float: left;
 }
