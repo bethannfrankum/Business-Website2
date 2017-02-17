@@ -112,7 +112,9 @@ footer {
 
 .lead button {
     background-color: transparent;
-    border-radius: 25%
+    border-color: transparent;
+    height: 300px;
+    width: 200px;
 }
 
 .summary .btn {
@@ -141,4 +143,8 @@ footer {
 .main-pic {
     display: block;
     float: left;
+}
+
+.leftside-nav .list-group {
+    margin-top: -125px;
 }
