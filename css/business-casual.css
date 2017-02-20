@@ -1,4 +1,4 @@
-/*!
+    /*!
  * Start Bootstrap - Business Casual (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
@@ -212,8 +212,6 @@ footer p {
     padding: 50px 0;
 }
 @media screen and (min-width:768px) {
-
-    
     .brand {
         display: inherit;
         margin: 0;
@@ -313,4 +311,5 @@ footer p {
         width: 220px;
         height: 200px;
     }
-}
+    
+    

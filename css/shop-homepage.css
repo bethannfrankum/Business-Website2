@@ -155,6 +155,8 @@ PLEASE NOTE:  THIS IS THE CSS FOR ALL STORE RELATED PAGES, SOME CSS FOR STORE IT
                 .main-pic {
                     display: block;
                     float: left;
+                    width: 280px;
+                    height: 400px;
                 }
                 
                 #btnClose {
@@ -184,5 +186,9 @@ PLEASE NOTE:  THIS IS THE CSS FOR ALL STORE RELATED PAGES, SOME CSS FOR STORE IT
                     }
                     .leftside-nav a {
                         text-align: center;
+                    }
+                    .main-pic {
+                        width: 405px;
+                        height: 540px;
                     }
                 }
