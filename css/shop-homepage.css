@@ -78,17 +78,31 @@ footer {
     z-index: 10;
     display: none;
     border: 1px solid black;
-    padding: 10px;
+    padding: 22px auto;
     background: white;
-    height: 250px;
+    height: 230px;
 }
 
-.modal h2,
+.modal h2 {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #202427;
+    text-transform: uppercase;
+}
+
 .modal p {
     color: #202427;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#btnClose {
+    margin-left: 60px;
 }
 
 .caption h4,
@@ -111,10 +125,14 @@ footer {
 }
 
 .lead button {
+    color: #fff;
     background-color: transparent;
     border-color: transparent;
-    height: 300px;
-    width: 200px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 
 .summary .btn {
@@ -143,8 +161,4 @@ footer {
 .main-pic {
     display: block;
     float: left;
-}
-
-.leftside-nav .list-group {
-    margin-top: -125px;
 }

@@ -212,6 +212,8 @@ footer p {
     padding: 50px 0;
 }
 @media screen and (min-width:768px) {
+
+    
     .brand {
         display: inherit;
         margin: 0;
@@ -279,6 +281,10 @@ footer p {
         margin: 0 auto;
         table-layout: fixed;
         font-size: 1.25em;
+    }
+    
+    .leftside-nav .modal {
+        overflow: auto;
     }
 }
 @media screen and (min-width:1200px) {
