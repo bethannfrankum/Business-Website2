@@ -1,4 +1,4 @@
-/*!
+                /*!
  * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
@@ -6,159 +6,175 @@
 PLEASE NOTE:  THIS IS THE CSS FOR ALL STORE RELATED PAGES, SOME CSS FOR STORE ITEMS MIGHT STILL BE IN BUSINESS CASUAL.
  
 */
-
-body {
-    /*padding-top: 70px;
+                
+                body {
+                    /*padding-top: 70px;
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
-
-.slide-image {
-    width: 100%;
-}
-
-.carousel-holder {
-    margin-bottom: 30px;
-}
-
-.carousel-control,
-.item {
-    border-radius: 4px;
-}
-
-.caption {
-    height: 130px;
-    overflow: hidden;
-}
-
-.caption h4 {
-    white-space: nowrap;
-}
-
-.thumbnail img {
-    width: 100%;
-}
-
-.ratings {
-    padding-right: 10px;
-    padding-left: 10px;
-    color: #d17581;
-}
-
-.thumbnail {
-    padding: 0;
-}
-
-.thumbnail .caption-full {
-    padding: 9px;
-    color: #333;
-}
-
-footer {
-    margin: 50px 0;
-}
-
-.container .leftside-nav .list-group {
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 3px;
-}
-
-.lead {
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 3px;
-}
-
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateY(-50%) translateX(-50%);
-    transform: translateY(-50%) translateX(-50%);
-    z-index: 10;
-    display: none;
-    border: 1px solid black;
-    padding: 22px auto;
-    background: white;
-    height: 230px;
-}
-
-.modal h2 {
-    font-size: 14px;
-    font-weight: 800;
-    letter-spacing: 3px;
-    text-align: center;
-    color: #202427;
-    text-transform: uppercase;
-}
-
-.modal p {
-    color: #202427;
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 3px;
-    text-align: center;
-    font-size: 12px;
-}
-
-#btnClose {
-    margin-left: 60px;
-}
-
-.caption h4,
-.caption h4 a {
-    color: #202427;
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 3px;
-    font-size: 14px;
-}
-
-.caption h4 a {
-    font-size: 15px;
-    font-weight: 600;
-}
-
-.caption p {
-    color: #202427;
-    font-weight: 400;
-}
-
-.lead button {
-    color: #fff;
-    background-color: transparent;
-    border-color: transparent;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    text-transform: uppercase;
-    font-size: 1.25em;
-    font-weight: 400;
-    letter-spacing: 3px;
-}
-
-.summary .btn {
-    background-color: #564444;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    text-transform: uppercase;
-    font-size: 1.25em;
-    font-weight: 400;
-    letter-spacing: 3px;
-    margin-bottom: 10px;
-}
-
-.summary img {
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 3px;
-    margin-bottom: 10px;
-}
-
-.listing-guts ul li {
-    list-style-type: none;
-    display: block;
-    width: 40%;
-}
-
-.main-pic {
-    display: block;
-    float: left;
-}
+                }
+                
+                .slide-image {
+                    width: 100%;
+                }
+                
+                .carousel-holder {
+                    margin-bottom: 30px;
+                }
+                
+                .carousel-control,
+                .item {
+                    border-radius: 4px;
+                }
+                
+                .caption {
+                    height: 130px;
+                    overflow: hidden;
+                }
+                
+                .caption h4 {
+                    white-space: nowrap;
+                }
+                
+                .thumbnail img {
+                    width: 100%;
+                }
+                
+                .ratings {
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    color: #d17581;
+                }
+                
+                .thumbnail {
+                    padding: 0;
+                }
+                
+                .thumbnail .caption-full {
+                    padding: 9px;
+                    color: #333;
+                }
+                
+                footer {
+                    margin: 50px 0;
+                }
+                
+                .container .leftside-nav .list-group {
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    letter-spacing: 3px;
+                }
+                
+                .lead {
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    letter-spacing: 3px;
+                }
+                
+                .modal {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translateY(-50%) translateX(-50%);
+                    transform: translateY(-50%) translateX(-50%);
+                    z-index: 10;
+                    display: none;
+                    border: 1px solid black;
+                    background: white;
+                }
+                
+                .modal h2 {
+                    font-size: 14px;
+                    font-weight: 800;
+                    letter-spacing: 3px;
+                    text-align: center;
+                    color: #202427;
+                    text-transform: uppercase;
+                }
+                
+                .modal p {
+                    color: #202427;
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    letter-spacing: 3px;
+                    text-align: center;
+                    font-size: 12px;
+                }
+                
+                .caption h4,
+                .caption h4 a {
+                    color: #202427;
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    letter-spacing: 3px;
+                    font-size: 14px;
+                }
+                
+                .caption h4 a {
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+                
+                .caption p {
+                    color: #202427;
+                    font-weight: 400;
+                }
+                
+                .lead button {
+                    color: #fff;
+                    background-color: transparent;
+                    border-color: transparent;
+                    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+                    text-transform: uppercase;
+                    font-size: 1.25em;
+                    font-weight: 400;
+                    letter-spacing: 3px;
+                }
+                
+                .summary .btn {
+                    background-color: #564444;
+                    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+                    text-transform: uppercase;
+                    font-size: 1.25em;
+                    font-weight: 400;
+                    letter-spacing: 3px;
+                    margin-bottom: 10px;
+                }
+                
+                .summary img {
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    letter-spacing: 3px;
+                    margin-bottom: 10px;
+                }
+                
+                .listing-guts ul li {
+                    list-style-type: none;
+                    display: block;
+                    width: 40%;
+                }
+                
+                .main-pic {
+                    display: block;
+                    float: left;
+                }
+                
+                #btnClose {
+                    margin-left: 60px;
+                    float: right;
+                    font-size: 21px;
+                    font-weight: 700;
+                    line-height: 1;
+                    color: #000;
+                    text-shadow: 0 1px 0 #fff;
+                    filter: alpha(opacity=20);
+                    opacity: .2;
+                }
+                
+                .modal p {
+                    font-size: 16px;
+                }
+                
+                @media screen and (min-width:1200px) {
+                    #btnClose {
+                        font-size: 30px;
+                    }
+                }
