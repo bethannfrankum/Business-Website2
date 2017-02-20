@@ -65,7 +65,17 @@
                     <p>7FS85Y is your code for FREE shipping! </p>
                     <button class="close1" id="btnClose">Close</button>
                 </div>
-                <div class="list-group"> <a href="necklaces.html" class="list-group-item">Necklaces</a> <a href="#" class="list-group-item">Earrings</a> <a href="#" class="list-group-item">Bracelets</a> <a href="#" class="list-group-item">Rings</a> <a href="#" class="list-group-item">Sets</a><a href="#" class="list-group-item">Customize</a></div>
+                <div class="list-group dropdown">
+                    <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Products <span class="caret"></span> </button>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="necklaces.html" class="list-group-item">Necklaces</a></li>
+                        <li><a href="#" class="list-group-item">Earrings</a></li>
+                        <li><a href="#" class="list-group-item">Bracelets</a></li>
+                        <li><a href="#" class="list-group-item">Rings</a></li>
+                        <li><a href="#" class="list-group-item">Sets</a></li>
+                        <li><a href="#" class="list-group-item">Customize</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="col-md-9">
                 <div class="row carousel-holder">
@@ -199,6 +209,7 @@
         <script src="js/modal.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/side-navjquery.js"></script>
 </body>
 
 </html>
