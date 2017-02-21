@@ -3,61 +3,53 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-
-body {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: .5;
-    display: none;
-}
-
-
-/*sticky nav css*/
-
-.affix {
-    top: 0;
-    width: 100%;
-    z-index: 10;
-}
-
-.affix + .container-fluid {
-    padding-top: 70px;
-}
-
-
-/*ratings and reviews for individual listings*/
-
-#hearts {
-    color: #FF0000;
-}
-
-#hearts-existing {
-    color: #87bad7;
-}
-
-
-/*css for jewelry type pages (necklace page, bracelet page, etc.)*/
-
-.img-responsive {
-    margin-top: 10px;
-}
-
-
-/*.lead,
+    
+    body {
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background: url('../img/bg.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: .5;
+        display: none;
+    }
+    /*sticky nav css*/
+    
+    .affix {
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    .affix + .container-fluid {
+        padding-top: 70px;
+    }
+    /*ratings and reviews for individual listings*/
+    
+    #hearts {
+        color: #FF0000;
+    }
+    
+    #hearts-existing {
+        color: #87bad7;
+    }
+    /*css for jewelry type pages (necklace page, bracelet page, etc.)*/
+    
+    .img-responsive {
+        margin-top: 10px;
+    }
+    /*.lead,
 .sub-header {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
@@ -77,43 +69,41 @@ h2 .year {
     color: #ACFE32;
 }
 */
-
-.necklace-header {
-    color: white;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    text-transform: uppercase;
-}
-
-.listing-header {
-    margin: 0;
-}
-
-.listing-background {
-    background-color: white;
-}
-
-.previous a {
-    color: #564444;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    text-transform: uppercase;
-    font-size: 1.25em;
-    font-weight: 400;
-    letter-spacing: 3px;
-    text-decoration: underline;
-    background-color: white;
-    margin-left: 5px;
-}
-
-.previous {
-    margin-bottom: 10px;
-}
-
-.summary {
-    background-color: white;
-}
-
-
-/*.overlay {
+    
+    .necklace-header {
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        text-transform: uppercase;
+    }
+    
+    .listing-header {
+        margin: 0;
+    }
+    
+    .listing-background {
+        background-color: white;
+    }
+    
+    .previous a {
+        color: #564444;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-decoration: underline;
+        background-color: white;
+        margin-left: 5px;
+    }
+    
+    .previous {
+        margin-bottom: 10px;
+    }
+    
+    .summary {
+        background-color: white;
+    }
+    /*.overlay {
     display: block;
     position: fixed;
     top: 0;
@@ -123,8 +113,6 @@ h2 .year {
     z-index: .0000005 auto;
     background: #384148;
     opacity: 0.7;*/
-
-
 }
 */ h1,
 h2,
@@ -311,5 +299,3 @@ footer p {
         width: 220px;
         height: 200px;
     }
-    
-    
