@@ -1,55 +1,55 @@
-    /*!
+        /*!
  * Start Bootstrap - Business Casual (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-    
-    body {
-        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        background: url('../img/bg.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-    }
-    
-    .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 5;
-        height: 100%;
-        width: 100%;
-        background-color: black;
-        opacity: .5;
-        display: none;
-    }
-    /*sticky nav css*/
-    
-    .affix {
-        top: 0;
-        width: 100%;
-        z-index: 10;
-    }
-    
-    .affix + .container-fluid {
-        padding-top: 70px;
-    }
-    /*ratings and reviews for individual listings*/
-    
-    #hearts {
-        color: #FF0000;
-    }
-    
-    #hearts-existing {
-        color: #87bad7;
-    }
-    /*css for jewelry type pages (necklace page, bracelet page, etc.)*/
-    
-    .img-responsive {
-        margin-top: 10px;
-    }
-    /*.lead,
+        
+        body {
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background: url('../img/bg.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+        }
+        
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 5;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            opacity: .5;
+            display: none;
+        }
+        /*sticky nav css*/
+        
+        .affix {
+            top: 0;
+            width: 100%;
+            z-index: 10;
+        }
+        
+        .affix + .container-fluid {
+            padding-top: 70px;
+        }
+        /*ratings and reviews for individual listings*/
+        
+        #hearts {
+            color: #FF0000;
+        }
+        
+        #hearts-existing {
+            color: #87bad7;
+        }
+        /*css for jewelry type pages (necklace page, bracelet page, etc.)*/
+        
+        .img-responsive {
+            margin-top: 10px;
+        }
+        /*.lead,
 .sub-header {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
@@ -69,41 +69,41 @@ h2 .year {
     color: #ACFE32;
 }
 */
-    
-    .necklace-header {
-        color: white;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-        text-transform: uppercase;
-    }
-    
-    .listing-header {
-        margin: 0;
-    }
-    
-    .listing-background {
-        background-color: white;
-    }
-    
-    .previous a {
-        color: #564444;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-        text-transform: uppercase;
-        font-size: 1.25em;
-        font-weight: 400;
-        letter-spacing: 3px;
-        text-decoration: underline;
-        background-color: white;
-        margin-left: 5px;
-    }
-    
-    .previous {
-        margin-bottom: 10px;
-    }
-    
-    .summary {
-        background-color: white;
-    }
-    /*.overlay {
+        
+        .necklace-header {
+            color: white;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            text-transform: uppercase;
+        }
+        
+        .listing-header {
+            margin: 0;
+        }
+        
+        .listing-background {
+            background-color: white;
+        }
+        
+        .previous a {
+            color: #564444;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+            text-transform: uppercase;
+            font-size: 1.25em;
+            font-weight: 400;
+            letter-spacing: 3px;
+            text-decoration: underline;
+            background-color: white;
+            margin-left: 5px;
+        }
+        
+        .previous {
+            margin-bottom: 10px;
+        }
+        
+        .summary {
+            background-color: white;
+        }
+        /*.overlay {
     display: block;
     position: fixed;
     top: 0;
@@ -113,189 +113,191 @@ h2 .year {
     z-index: .0000005 auto;
     background: #384148;
     opacity: 0.7;*/
-}
-*/ h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-transform: uppercase;
-    font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-p {
-    font-size: 1.25em;
-    line-height: 1.6;
-    color: #000;
-}
-hr {
-    max-width: 400px;
-    border-color: #999999;
-}
-.brand,
-.address-bar {
-    display: none;
-}
-.navbar-brand {
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 2px;
-}
-.navbar-nav {
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 3px;
-}
-.nav-bar ul {
-    text-align: center;
-}
-.img-full {
-    min-width: 100%;
-}
-.brand-before,
-.brand-name {
-    text-transform: capitalize;
-}
-.brand-before {
-    margin: 15px 0;
-}
-.brand-name {
-    margin: 0;
-    font-size: 4em;
-}
-.tagline-divider {
-    margin: 15px auto 3px;
-    max-width: 250px;
-    border-color: #999999;
-}
-.box {
-    margin-bottom: 20px;
-    padding: 30px 15px;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.9);
-}
-.intro-text {
-    text-transform: uppercase;
-    font-size: 1.25em;
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-.img-border {
-    float: none;
-    margin: 0 auto 0;
-    border: #999999 solid 1px;
-}
-.img-left {
-    float: none;
-    margin: 0 auto 0;
-}
-footer {
-    background: #fff;
-    background: rgba(255, 255, 255, 0.9);
-}
-footer p {
-    margin: 0;
-    padding: 50px 0;
-}
-@media screen and (min-width:768px) {
-    .brand {
-        display: inherit;
-        margin: 0;
-        padding: 30px 0 10px;
-        text-align: center;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-        font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 5em;
-        font-weight: 700;
-        line-height: normal;
-        color: rgb(86, 68, 68);
     }
-    
-    .top-divider {
-        margin-top: 0;
-    }
-    
-    .img-left {
-        float: left;
-        margin-right: 25px;
-    }
-    
-    .address-bar {
-        display: inherit;
-        margin: 0;
-        padding: 0 0 40px;
-        text-align: center;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    */ h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         text-transform: uppercase;
+        font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    p {
         font-size: 1.25em;
-        font-weight: 400;
-        letter-spacing: 3px;
-        color: #fff;
+        line-height: 1.6;
+        color: #000;
     }
-    
-    .navbar {
-        border-radius: 0;
+    hr {
+        max-width: 400px;
+        border-color: #999999;
     }
-    
-    .navbar-header {
+    .brand,
+    .address-bar {
         display: none;
     }
-    
-    .navbar {
-        min-height: 0;
+    .navbar-brand {
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 0px;
+        font-size: 16px;
+        padding-left: 9px;
     }
-    
-    .navbar-default {
-        border: none;
+    .navbar-nav {
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 3px;
+    }
+    .nav-bar ul {
+        text-align: center;
+    }
+    .img-full {
+        min-width: 100%;
+    }
+    .brand-before,
+    .brand-name {
+        text-transform: capitalize;
+    }
+    .brand-before {
+        margin: 15px 0;
+    }
+    .brand-name {
+        margin: 0;
+        font-size: 4em;
+    }
+    .tagline-divider {
+        margin: 15px auto 3px;
+        max-width: 250px;
+        border-color: #999999;
+    }
+    .box {
+        margin-bottom: 20px;
+        padding: 30px 15px;
         background: #fff;
         background: rgba(255, 255, 255, 0.9);
     }
-    
-    .nav>li>a {
-        padding: 35px;
-    }
-    
-    .navbar-nav>li>a {
-        line-height: normal;
-    }
-    
-    .navbar-nav {
-        display: table;
-        float: none;
-        margin: 0 auto;
-        table-layout: fixed;
+    .intro-text {
+        text-transform: uppercase;
         font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 1px;
     }
-    
-    .leftside-nav .modal {
-        overflow: auto;
+    .img-border {
+        float: none;
+        margin: 0 auto 0;
+        border: #999999 solid 1px;
     }
-}
-@media screen and (min-width:1200px) {
-    .box:after {
-        content: '';
-        display: table;
-        clear: both;
+    .img-left {
+        float: none;
+        margin: 0 auto 0;
     }
-    
-    .rightside-gallery {
-        width: 80%;
-        float: right;
+    footer {
+        background: #fff;
+        background: rgba(255, 255, 255, 0.9);
     }
-    
-    .leftside-nav {
-        width: 20%;
-        float: left;
-        overflow: auto;
+    footer p {
+        margin: 0;
+        padding: 50px 0;
     }
-    
-    .leftside-nav a {
-        width: 100%;
+    @media screen and (min-width:768px) {
+        .brand {
+            display: inherit;
+            margin: 0;
+            padding: 30px 0 10px;
+            text-align: center;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+            font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 5em;
+            font-weight: 700;
+            line-height: normal;
+            color: rgb(86, 68, 68);
+        }
+        
+        .top-divider {
+            margin-top: 0;
+        }
+        
+        .img-left {
+            float: left;
+            margin-right: 25px;
+        }
+        
+        .address-bar {
+            display: inherit;
+            margin: 0;
+            padding: 0 0 40px;
+            text-align: center;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            text-transform: uppercase;
+            font-size: 1.25em;
+            font-weight: 400;
+            letter-spacing: 3px;
+            color: #fff;
+        }
+        
+        .navbar {
+            border-radius: 0;
+        }
+        
+        .navbar-header {
+            display: none;
+        }
+        
+        .navbar {
+            min-height: 0;
+        }
+        
+        .navbar-default {
+            border: none;
+            background: #fff;
+            background: rgba(255, 255, 255, 0.9);
+        }
+        
+        .nav>li>a {
+            padding: 35px;
+        }
+        
+        .navbar-nav>li>a {
+            line-height: normal;
+        }
+        
+        .navbar-nav {
+            display: table;
+            float: none;
+            margin: 0 auto;
+            table-layout: fixed;
+            font-size: 1.25em;
+        }
+        
+        .leftside-nav .modal {
+            overflow: auto;
+        }
     }
-    
-    .modal {
-        width: 220px;
-        height: 200px;
-    }
+    @media screen and (min-width:1200px) {
+        .box:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        
+        .rightside-gallery {
+            width: 80%;
+            float: right;
+        }
+        
+        .leftside-nav {
+            width: 20%;
+            float: left;
+            overflow: auto;
+        }
+        
+        .leftside-nav a {
+            width: 100%;
+        }
+        
+        .modal {
+            width: 220px;
+            height: 200px;
+        }
