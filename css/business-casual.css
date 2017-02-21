@@ -297,6 +297,11 @@ h2 .year {
             width: 100%;
         }
         
+        .nav>li>a {
+            font-size: 18px;
+            padding: 35px;
+        }
+        
         .modal {
             width: 220px;
             height: 200px;
