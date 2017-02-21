@@ -127,6 +127,7 @@ PLEASE NOTE:  THIS IS THE CSS FOR ALL STORE RELATED PAGES, SOME CSS FOR STORE IT
                     font-size: 1.25em;
                     font-weight: 400;
                     letter-spacing: 3px;
+                    text-decoration: none;
                 }
                 
                 .summary .btn {
@@ -174,7 +175,15 @@ PLEASE NOTE:  THIS IS THE CSS FOR ALL STORE RELATED PAGES, SOME CSS FOR STORE IT
                 .modal p {
                     font-size: 16px;
                 }
-                .leftside nav a
+                
+                .lead a {
+                    color: #fff;
+                }
+                
+                .hover-shadow:hover {
+                    color: red;
+                }
+                
                 @media screen and (min-width:1200px) {
                     #btnClose {
                         font-size: 30px;
