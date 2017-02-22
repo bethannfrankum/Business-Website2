@@ -161,9 +161,10 @@ PLEASE NOTE:  THIS IS THE CSS FOR ALL STORE RELATED PAGES, SOME CSS FOR STORE IT
                 }
                 
                 #btnClose {
-                    margin-left: 60px;
+                    margin-left: 50px;
+                    margin-right: 10px;
                     float: right;
-                    font-size: 21px;
+                    font-size: 19px;
                     font-weight: 700;
                     line-height: 1;
                     color: #000;
@@ -184,9 +185,19 @@ PLEASE NOTE:  THIS IS THE CSS FOR ALL STORE RELATED PAGES, SOME CSS FOR STORE IT
                     color: red;
                 }
                 
+                @media screen and (min-width:768px) {
+                    .shopfooter footer {
+                        width: 100%
+                    }
+                }
+                
                 @media screen and (min-width:1200px) {
+                    .shopfooter footer {
+                        width: 1919px;
+                        margin-left: -400px;
+                    }
                     #btnClose {
-                        font-size: 30px;
+                        font-size: 20px;
                     }
                     .leftside-nav .list-group .list-group-item {
                         height: 80px;
