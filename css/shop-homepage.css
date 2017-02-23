@@ -211,4 +211,7 @@ PLEASE NOTE:  THIS IS THE CSS FOR ALL STORE RELATED PAGES, SOME CSS FOR STORE IT
                         width: 405px;
                         height: 540px;
                     }
+                    .necklacepage {
+                        margin-left: -380px;
+                    }
                 }
