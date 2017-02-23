@@ -84,6 +84,7 @@ h2 .year {
             background-color: white;
         }
         
+        .next a,
         .previous a {
             color: #564444;
             text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -92,8 +93,12 @@ h2 .year {
             font-weight: 400;
             letter-spacing: 3px;
             text-decoration: underline;
-            background-color: white;
-            margin-left: 5px;
+            margin-left: -5px;
+            display: inline-block;
+            padding: 5px 14px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 15px;
         }
         
         .previous {
