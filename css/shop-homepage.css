@@ -12,6 +12,10 @@ PLEASE NOTE:  THIS IS THE CSS FOR ALL STORE RELATED PAGES, SOME CSS FOR STORE IT
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
                 }
                 
+                .listing-header {
+                    padding: 9px;
+                }
+                
                 .slide-image {
                     width: 100%;
                 }
