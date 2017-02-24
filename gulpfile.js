@@ -23,7 +23,7 @@ gulp.task('sass', function () {
     }))
 });
 // Minify compiled CSS
-gulp.task('minify-css', ['sass'], function () {
+/*gulp.task('minify-css', ['sass'], function () {
     return gulp.src('css/*.css').pipe(cleanCSS({
         compatibility: 'ie8'
     })).pipe(rename({
@@ -31,7 +31,7 @@ gulp.task('minify-css', ['sass'], function () {
     })).pipe(gulp.dest('css')).pipe(browserSync.reload({
         stream: true
     }))
-});
+});*/
 // Minify JS
 gulp.task('minify-js', function () {
     return gulp.src('js/creative.js').pipe(uglify()).pipe(header(banner, {
@@ -70,7 +70,7 @@ gulp.task('browserSync', function () {
     // Dev task with browserSync
 gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function () {
     gulp.watch('css/*.scss', ['sass']);
-    gulp.watch('css/*.css', ['minify-css']);
+    /* gulp.watch('css/*.css', ['minify-css']);*/
     gulp.watch('js/*.js', ['minify-js']);
     // Reloads the browser whenever HTML or JS files change
     gulp.watch('*.html', browserSync.reload);
