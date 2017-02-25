@@ -18,7 +18,7 @@ var banner = ['/*!\n'
 gulp.task('sass', function () {
     return gulp.src('css/*.scss').pipe(sass()).pipe(header(banner, {
         pkg: pkg
-    })).pipe(gulp.dest('css')).pipe(browserSync.reload({
+    })).pipe(gulp.dest('dist/css')).pipe(browserSync.reload({
         stream: true
     }))
 });
@@ -38,7 +38,7 @@ gulp.task('minify-js', function () {
         pkg: pkg
     })).pipe(rename({
         suffix: '.min'
-    })).pipe(gulp.dest('js')).pipe(browserSync.reload({
+    })).pipe(gulp.dest('dist/js')).pipe(browserSync.reload({
         stream: true
     }))
 });
