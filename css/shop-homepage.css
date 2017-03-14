@@ -226,8 +226,7 @@ PLEASE NOTE:  THIS IS THE CSS FOR ALL STORE RELATED PAGES, SOME CSS FOR STORE IT
                         margin-left: 185px;
                     }
                 }
-                
-                @media screen and (max-width:425px) {
+                /*@media screen and (max-width:425px) {
                     #drop-downnav {
                         display: none;
                     }
